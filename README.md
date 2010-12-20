@@ -6,12 +6,16 @@ It will not fetch files that already exist so it is safe to run periodically to 
 
 For windows users who don't want to install a complete ruby environment there is a compiled executable that is built using the ocra gem.
 
+# Usage
+
+    ruby flickr-getr.rb <target-folder> <photoset-id>
+
 # TODO
 
 * add error checking
 * add pagination support for photosets with more than 500 photos
 
-# changelog
+# Changelog
 
 ## 0.1
 
