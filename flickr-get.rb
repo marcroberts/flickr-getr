@@ -1,5 +1,9 @@
 #!/usr/bin/env ruby
 
+# flickr-getr
+#
+# version: 0.1
+
 require 'rubygems'
 require 'httparty'
 require 'open-uri'
