@@ -33,6 +33,8 @@ require 'httparty'
 require 'open-uri'
 require 'tempfile' # for ocra
 
+MultiJson.use :ok_json # ocra can't seem to vendor any other json lib
+
 class Flickr
   include HTTParty
   base_uri 'api.flickr.com'
@@ -63,7 +65,7 @@ end
 # ----------------
 
 if ARGV.count != 3
-  print "Usage: flickr-get <apikey> <path> <photoset-id>"
+  print "Usage: flickr-get <apikey> <path> <photoset-id>\n"
   exit
 end
 
