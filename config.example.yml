@@ -1,0 +1,16 @@
+api:
+  key:
+  secret:
+oauth:
+  token:
+  secret:
+debug: false
+tasks:
+-
+  type: album
+  id: 123
+  path: ./album-123/
+-
+  type: album
+  id: 456
+  path: ./album-456/

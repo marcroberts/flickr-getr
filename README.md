@@ -10,9 +10,12 @@ You will need to sign up for a flickr API key (it's free).
 
 # Usage
 
-    ruby flickr-getr.rb <apikey> <target-folder> <photoset-id>
+  1. Auth with your oauth app - `ruby flickr-getr.rb auth`
+  2. Setup the config.yml file
+  3. `ruby flickr-get.rb`
+
 
 # TODO
 
 * add error checking
-* add pagination support for photosets with more than 500 photos
+* better documentation

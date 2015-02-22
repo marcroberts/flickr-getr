@@ -1,0 +1,24 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (1.2.5)
+    flickraw (0.9.8)
+    httparty (0.13.1)
+      json (~> 1.8)
+      multi_xml (>= 0.5.2)
+    json (1.8.1)
+    multi_json (1.10.1)
+    multi_xml (0.5.5)
+    oj (2.10.2)
+    psych (2.0.5)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bigdecimal
+  flickraw
+  httparty
+  multi_json
+  oj
+  psych
